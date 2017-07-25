@@ -1,0 +1,77 @@
+============================================================
+Time: 2017-02-09 11:40:07.127543
+Data: US8K_logmel64_meanstd
+Number of input features:  128
+Number of layer: 2
+Hidden units:  64  -  32
+Training epochs:   100
+Batch size:  50
+	Train	Valid	Test1	Youtube
+Fscore	 0.94 	 0.55 	 0.62 	 0.36 
+Acc	 0.94 	 0.54 	 0.59 	 0.39 
+============================================================
+Time: 2017-02-09 11:43:04.904581
+Data: US8K_logthirdoctave30_meanstd
+Number of input features:   60
+Number of layer: 2
+Hidden units:  48  -  24
+Training epochs:   100
+Batch size:  50
+	Train	Valid	Test1	Youtube
+Fscore	 0.88 	 0.53 	 0.66 	 0.32 
+Acc	 0.88 	 0.53 	 0.66 	 0.36 
+============================================================
+Time: 2017-02-09 11:44:31.555988
+Data: US8K_thirdoctave30_meanstd
+Number of input features:   60
+Number of layer: 2
+Hidden units:  48  -  24
+Training epochs:   100
+Batch size:  50
+	Train	Valid	Test1	Youtube
+Fscore	 0.95 	 0.57 	 0.54 	 0.38 
+Acc	 0.94 	 0.57 	 0.54 	 0.41 
+============================================================
+Time: 2017-02-09 11:46:29.943010
+Data: US8K_logmel128_mean
+Number of input features:  128
+Number of layer: 2
+Hidden units:  64  -  32
+Training epochs:   100
+Batch size:  50
+	Train	Valid	Test1	Youtube
+Fscore	 0.86 	 0.50 	 0.47 	 0.30 
+Acc	 0.86 	 0.51 	 0.48 	 0.33 
+============================================================
+Time: 2017-02-09 12:57:11.718805
+Data: US8K_logmel128_meanstd
+Number of input features:  256
+Number of layer: 2
+Hidden units: 128  -  64
+Training epochs:   100
+Batch size:  50
+	Train	Valid	Test1	Youtube
+Fscore	 0.96 	 0.54 	 0.63 	 0.43 
+Acc	 0.95 	 0.53 	 0.62 	 0.45 
+============================================================
+Time: 2017-02-09 13:00:11.163861
+Data: US8K_logspec1024_meanstd
+Number of input features: 1026
+Number of layer: 2
+Hidden units: 128  -  64
+Training epochs:   100
+Batch size:  50
+	Train	Valid	Test1	Youtube
+Fscore	 0.98 	 0.49 	 0.61 	 0.29 
+Acc	 0.98 	 0.49 	 0.57 	 0.32 
+============================================================
+Time: 2017-02-09 13:02:07.698782
+Data: US8K_mfcc40_meanstddelta
+Number of input features:  120
+Number of layer: 2
+Hidden units: 128  -  64
+Training epochs:   100
+Batch size:  50
+	Train	Valid	Test1	Youtube
+Fscore	 1.00 	 0.60 	 0.66 	 0.54 
+Acc	 1.00 	 0.59 	 0.64 	 0.57 
